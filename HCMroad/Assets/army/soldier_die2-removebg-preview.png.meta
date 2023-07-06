@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: b07bc1c1e59636a4f8673104ddb7d1b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8798409064729363753
+    second: soldier_die2-removebg-preview_0
+  - first:
+      213: -1454367268971498996
+    second: soldier_die2-removebg-preview_1
+  - first:
+      213: -5788778550626640093
+    second: soldier_die2-removebg-preview_2
+  - first:
+      213: -5819185649976642264
+    second: soldier_die2-removebg-preview_3
+  - first:
+      213: -6467267903467776703
+    second: soldier_die2-removebg-preview_4
+  - first:
+      213: -3083875081636246398
+    second: soldier_die2-removebg-preview_5
+  - first:
+      213: 4476355591373555482
+    second: soldier_die2-removebg-preview_6
+  - first:
+      213: 4157679333465246387
+    second: soldier_die2-removebg-preview_7
+  - first:
+      213: 7398200291843992662
+    second: soldier_die2-removebg-preview_8
+  - first:
+      213: 2453225420477314924
+    second: soldier_die2-removebg-preview_9
+  - first:
+      213: -5126451691662518256
+    second: soldier_die2-removebg-preview_10
+  - first:
+      213: 4886869202683400519
+    second: soldier_die2-removebg-preview_11
+  - first:
+      213: -7896875198500586680
+    second: soldier_die2-removebg-preview_12
+  - first:
+      213: 7167128079240338916
+    second: soldier_die2-removebg-preview_13
+  - first:
+      213: 5493488102131020562
+    second: soldier_die2-removebg-preview_14
+  - first:
+      213: 2620853199452708458
+    second: soldier_die2-removebg-preview_15
+  - first:
+      213: 5630758494969473551
+    second: soldier_die2-removebg-preview_16
+  - first:
+      213: 5124892567487951135
+    second: soldier_die2-removebg-preview_17
+  - first:
+      213: 6974251922331224488
+    second: soldier_die2-removebg-preview_18
+  - first:
+      213: 8426132953900418385
+    second: soldier_die2-removebg-preview_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 339
+        width: 72
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92545cbad6a3a1a70800000000000000
+      internalID: 8798409064729363753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 339
+        width: 71
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02bff7acac01dbe0800000000000000
+      internalID: -1454367268971498996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 338
+        width: 71
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f9f7614902aafa0800000000000000
+      internalID: -5788778550626640093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 338
+        width: 71
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82577139b791e3fa0800000000000000
+      internalID: -5819185649976642264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 338
+        width: 73
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145948a5b16af36a0800000000000000
+      internalID: -6467267903467776703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 226
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c846bc3ffd335d0800000000000000
+      internalID: -3083875081636246398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 226
+        width: 76
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17872091b53f1e30800000000000000
+      internalID: 4476355591373555482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 226
+        width: 83
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bacd21535b03b930800000000000000
+      internalID: 4157679333465246387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 226
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c6d84d7ffaba660800000000000000
+      internalID: 7398200291843992662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 226
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67328da58b9b0220800000000000000
+      internalID: 2453225420477314924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 123
+        width: 70
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0185148f85f2bd8b0800000000000000
+      internalID: -5126451691662518256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 123
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7419db9e5a5a1d340800000000000000
+      internalID: 4886869202683400519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 122
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bb7cda8d9a86290800000000000000
+      internalID: -7896875198500586680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 120
+        width: 70
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed19d6d301c67360800000000000000
+      internalID: 7167128079240338916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 126
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213ba59b25acc3c40800000000000000
+      internalID: 5493488102131020562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 83
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e13d959142f5420800000000000000
+      internalID: 2620853199452708458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 90
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a2ba4a409742e40800000000000000
+      internalID: 5630758494969473551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 12
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11b82523a64f1740800000000000000
+      internalID: 5124892567487951135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 11
+        width: 95
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a943a41c2589c060800000000000000
+      internalID: 6974251922331224488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldier_die2-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 11
+        width: 94
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155827b2743afe470800000000000000
+      internalID: 8426132953900418385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      soldier_die2-removebg-preview_0: 8798409064729363753
+      soldier_die2-removebg-preview_1: -1454367268971498996
+      soldier_die2-removebg-preview_10: -5126451691662518256
+      soldier_die2-removebg-preview_11: 4886869202683400519
+      soldier_die2-removebg-preview_12: -7896875198500586680
+      soldier_die2-removebg-preview_13: 7167128079240338916
+      soldier_die2-removebg-preview_14: 5493488102131020562
+      soldier_die2-removebg-preview_15: 2620853199452708458
+      soldier_die2-removebg-preview_16: 5630758494969473551
+      soldier_die2-removebg-preview_17: 5124892567487951135
+      soldier_die2-removebg-preview_18: 6974251922331224488
+      soldier_die2-removebg-preview_19: 8426132953900418385
+      soldier_die2-removebg-preview_2: -5788778550626640093
+      soldier_die2-removebg-preview_3: -5819185649976642264
+      soldier_die2-removebg-preview_4: -6467267903467776703
+      soldier_die2-removebg-preview_5: -3083875081636246398
+      soldier_die2-removebg-preview_6: 4476355591373555482
+      soldier_die2-removebg-preview_7: 4157679333465246387
+      soldier_die2-removebg-preview_8: 7398200291843992662
+      soldier_die2-removebg-preview_9: 2453225420477314924
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

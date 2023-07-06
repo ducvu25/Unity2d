@@ -1,0 +1,536 @@
+fileFormatVersion: 2
+guid: 21c37a026687daf4d87aa5483f3f91fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6226029737047070964
+    second: chem-removebg-preview_0
+  - first:
+      213: -9608876002353000
+    second: chem-removebg-preview_1
+  - first:
+      213: -2499276142601665245
+    second: chem-removebg-preview_2
+  - first:
+      213: 4741774435767714016
+    second: chem-removebg-preview_3
+  - first:
+      213: -5015611661723294156
+    second: chem-removebg-preview_4
+  - first:
+      213: 5333526133605518787
+    second: chem-removebg-preview_5
+  - first:
+      213: -3124129148172226644
+    second: chem-removebg-preview_6
+  - first:
+      213: -8220776128446593338
+    second: chem-removebg-preview_7
+  - first:
+      213: 966870309091175152
+    second: chem-removebg-preview_8
+  - first:
+      213: -633849448599196929
+    second: chem-removebg-preview_9
+  - first:
+      213: -8874381718272443884
+    second: chem-removebg-preview_10
+  - first:
+      213: 4970347389392681867
+    second: chem-removebg-preview_11
+  - first:
+      213: -5422186989130189860
+    second: chem-removebg-preview_12
+  - first:
+      213: 8145657617269290168
+    second: chem-removebg-preview_13
+  - first:
+      213: 968960765414301084
+    second: chem-removebg-preview_14
+  - first:
+      213: 3846894161658455374
+    second: chem-removebg-preview_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chem-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 282
+        width: 84
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c076a4ae0f2b899a0800000000000000
+      internalID: -6226029737047070964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 282
+        width: 84
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890603737ccdddff0800000000000000
+      internalID: -9608876002353000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 189
+        width: 83
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3258e9c0799c05dd0800000000000000
+      internalID: -2499276142601665245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 189
+        width: 81
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e086f0f9ba2ec140800000000000000
+      internalID: 4741774435767714016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 95
+        width: 83
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4362dab74c7f46ab0800000000000000
+      internalID: -5015611661723294156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 189
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdc1d1a2cd740a40800000000000000
+      internalID: 5333526133605518787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 189
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf20c2971dd4a4d0800000000000000
+      internalID: -3124129148172226644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 96
+        width: 57
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c60eedaaafe9ed80800000000000000
+      internalID: -8220776128446593338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 96
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa60456c630b6d00800000000000000
+      internalID: 966870309091175152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 95
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffaea27e84d1437f0800000000000000
+      internalID: -633849448599196929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 95
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a762188dcd7d480800000000000000
+      internalID: -8874381718272443884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b7a0bdd983af440800000000000000
+      internalID: 4970347389392681867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3762f49a580c4b0800000000000000
+      internalID: -5422186989130189860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b47a4302703b0170800000000000000
+      internalID: 8145657617269290168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d5fcfaea0727d00800000000000000
+      internalID: 968960765414301084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chem-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 79
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e452d2abbd9e26530800000000000000
+      internalID: 3846894161658455374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      chem-removebg-preview_0: -6226029737047070964
+      chem-removebg-preview_1: -9608876002353000
+      chem-removebg-preview_10: -8874381718272443884
+      chem-removebg-preview_11: 4970347389392681867
+      chem-removebg-preview_12: -5422186989130189860
+      chem-removebg-preview_13: 8145657617269290168
+      chem-removebg-preview_14: 968960765414301084
+      chem-removebg-preview_15: 3846894161658455374
+      chem-removebg-preview_2: -2499276142601665245
+      chem-removebg-preview_3: 4741774435767714016
+      chem-removebg-preview_4: -5015611661723294156
+      chem-removebg-preview_5: 5333526133605518787
+      chem-removebg-preview_6: -3124129148172226644
+      chem-removebg-preview_7: -8220776128446593338
+      chem-removebg-preview_8: 966870309091175152
+      chem-removebg-preview_9: -633849448599196929
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

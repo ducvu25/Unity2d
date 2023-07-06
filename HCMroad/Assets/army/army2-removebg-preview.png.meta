@@ -1,0 +1,836 @@
+fileFormatVersion: 2
+guid: 0ca283c5d1221714c9e66b734e47b2c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3605193683890092221
+    second: army2-removebg-preview_0
+  - first:
+      213: 4750455759571932743
+    second: army2-removebg-preview_1
+  - first:
+      213: -8532379423321032634
+    second: army2-removebg-preview_2
+  - first:
+      213: -3794576140058703780
+    second: army2-removebg-preview_3
+  - first:
+      213: 161384766418860640
+    second: army2-removebg-preview_4
+  - first:
+      213: -6085220180153490819
+    second: army2-removebg-preview_5
+  - first:
+      213: 1916748878702635997
+    second: army2-removebg-preview_6
+  - first:
+      213: -346449641617053795
+    second: army2-removebg-preview_7
+  - first:
+      213: 8556011568055402411
+    second: army2-removebg-preview_8
+  - first:
+      213: 8597669754793921535
+    second: army2-removebg-preview_9
+  - first:
+      213: 7987456843714830327
+    second: army2-removebg-preview_10
+  - first:
+      213: -5676893203320394137
+    second: army2-removebg-preview_11
+  - first:
+      213: 5228573126600746097
+    second: army2-removebg-preview_12
+  - first:
+      213: -3216308824039248582
+    second: army2-removebg-preview_13
+  - first:
+      213: -317803706344260947
+    second: army2-removebg-preview_14
+  - first:
+      213: 3980671643543877419
+    second: army2-removebg-preview_15
+  - first:
+      213: -6550920252195063699
+    second: army2-removebg-preview_16
+  - first:
+      213: 2944229654917973662
+    second: army2-removebg-preview_17
+  - first:
+      213: -5502860515778152977
+    second: army2-removebg-preview_18
+  - first:
+      213: -3771490494179790237
+    second: army2-removebg-preview_19
+  - first:
+      213: 7257889391507604906
+    second: army2-removebg-preview_20
+  - first:
+      213: 3642396075948349539
+    second: army2-removebg-preview_21
+  - first:
+      213: 991225870649617458
+    second: army2-removebg-preview_22
+  - first:
+      213: 4904400175961836205
+    second: army2-removebg-preview_23
+  - first:
+      213: -3741340015711666736
+    second: army2-removebg-preview_24
+  - first:
+      213: 1279065174349566109
+    second: army2-removebg-preview_25
+  - first:
+      213: 5886382940652511734
+    second: army2-removebg-preview_26
+  - first:
+      213: 8121765024918776933
+    second: army2-removebg-preview_27
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: army2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 360
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347cf351277c7fdc0800000000000000
+      internalID: -3605193683890092221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 360
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7465e7628520de140800000000000000
+      internalID: 4750455759571932743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 360
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648f818fe16e69980800000000000000
+      internalID: -8532379423321032634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 360
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58c0aaea15f65bc0800000000000000
+      internalID: -3794576140058703780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 363
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a3e8a079a5d3200800000000000000
+      internalID: 161384766418860640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 289
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72a9edac74fc8ba0800000000000000
+      internalID: -6085220180153490819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 288
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbe2b623f8a99a10800000000000000
+      internalID: 1916748878702635997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 288
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97aad2f2e9213bf0800000000000000
+      internalID: -346449641617053795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 288
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf3310803f0db670800000000000000
+      internalID: 8556011568055402411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 221
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffb8c9ee61f015770800000000000000
+      internalID: 8597669754793921535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 221
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff92641ea529de60800000000000000
+      internalID: 7987456843714830327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 221
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e224485bf9731b0800000000000000
+      internalID: -5676893203320394137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 221
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174e0357e8f9f8840800000000000000
+      internalID: 5228573126600746097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 219
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3daf2f4a206d53d0800000000000000
+      internalID: -3216308824039248582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 148
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa3c0f763fe69bf0800000000000000
+      internalID: -317803706344260947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 148
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2737e0f4cf2e3730800000000000000
+      internalID: 3980671643543877419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 148
+        width: 56
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6830082db47615a0800000000000000
+      internalID: -6550920252195063699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 148
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e968e8e95410cd820800000000000000
+      internalID: 2944229654917973662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 148
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5358c2489e1a3b0800000000000000
+      internalID: -5502860515778152977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 72
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362b6a4b069f8abc0800000000000000
+      internalID: -3771490494179790237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 72
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa503e792f339b460800000000000000
+      internalID: 7257889391507604906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 72
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3689d2ecee36c8230800000000000000
+      internalID: 3642396075948349539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 0
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c6f387daa81cd00800000000000000
+      internalID: 991225870649617458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 72
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa8194b9fdef0440800000000000000
+      internalID: 4904400175961836205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd3d830417141cc0800000000000000
+      internalID: -3741340015711666736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 0
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90dda1dff620c110800000000000000
+      internalID: 1279065174349566109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1238dd812a0b150800000000000000
+      internalID: 5886382940652511734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: army2-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 44
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ca97b524e46b070800000000000000
+      internalID: 8121765024918776933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      army2-removebg-preview_0: -3605193683890092221
+      army2-removebg-preview_1: 4750455759571932743
+      army2-removebg-preview_10: 7987456843714830327
+      army2-removebg-preview_11: -5676893203320394137
+      army2-removebg-preview_12: 5228573126600746097
+      army2-removebg-preview_13: -3216308824039248582
+      army2-removebg-preview_14: -317803706344260947
+      army2-removebg-preview_15: 3980671643543877419
+      army2-removebg-preview_16: -6550920252195063699
+      army2-removebg-preview_17: 2944229654917973662
+      army2-removebg-preview_18: -5502860515778152977
+      army2-removebg-preview_19: -3771490494179790237
+      army2-removebg-preview_2: -8532379423321032634
+      army2-removebg-preview_20: 7257889391507604906
+      army2-removebg-preview_21: 3642396075948349539
+      army2-removebg-preview_22: 991225870649617458
+      army2-removebg-preview_23: 4904400175961836205
+      army2-removebg-preview_24: -3741340015711666736
+      army2-removebg-preview_25: 1279065174349566109
+      army2-removebg-preview_26: 5886382940652511734
+      army2-removebg-preview_27: 8121765024918776933
+      army2-removebg-preview_3: -3794576140058703780
+      army2-removebg-preview_4: 161384766418860640
+      army2-removebg-preview_5: -6085220180153490819
+      army2-removebg-preview_6: 1916748878702635997
+      army2-removebg-preview_7: -346449641617053795
+      army2-removebg-preview_8: 8556011568055402411
+      army2-removebg-preview_9: 8597669754793921535
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

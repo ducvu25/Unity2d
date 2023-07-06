@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: ce52ba02be1d8994584783e4801f27b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6684267674043558392
+    second: soldoer_jump2-removebg-preview_0
+  - first:
+      213: -2970930324805645059
+    second: soldoer_jump2-removebg-preview_1
+  - first:
+      213: 5584902862384638356
+    second: soldoer_jump2-removebg-preview_2
+  - first:
+      213: -2112553253501162786
+    second: soldoer_jump2-removebg-preview_3
+  - first:
+      213: 6711755660401704017
+    second: soldoer_jump2-removebg-preview_4
+  - first:
+      213: -9132970137488110636
+    second: soldoer_jump2-removebg-preview_5
+  - first:
+      213: -8933868566123391685
+    second: soldoer_jump2-removebg-preview_6
+  - first:
+      213: 8521206028071794926
+    second: soldoer_jump2-removebg-preview_7
+  - first:
+      213: -3675734498396297029
+    second: soldoer_jump2-removebg-preview_8
+  - first:
+      213: 884411864785957290
+    second: soldoer_jump2-removebg-preview_9
+  - first:
+      213: 1667683211845630626
+    second: soldoer_jump2-removebg-preview_10
+  - first:
+      213: -5973805406664324575
+    second: soldoer_jump2-removebg-preview_11
+  - first:
+      213: -7280370568221991999
+    second: soldoer_jump2-removebg-preview_12
+  - first:
+      213: 8010435062560720867
+    second: soldoer_jump2-removebg-preview_13
+  - first:
+      213: 4095688699542677807
+    second: soldoer_jump2-removebg-preview_14
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 263
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f92ef6e80a43cc50800000000000000
+      internalID: 6684267674043558392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 263
+        width: 73
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc06893c9225c6d0800000000000000
+      internalID: -2970930324805645059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 263
+        width: 73
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499af71309f818d40800000000000000
+      internalID: 5584902862384638356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 263
+        width: 72
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edaa7fb3204bea2e0800000000000000
+      internalID: -2112553253501162786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 264
+        width: 72
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cf5757632f42d50800000000000000
+      internalID: 6711755660401704017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 137
+        width: 75
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db45ca6c0c214180800000000000000
+      internalID: -9132970137488110636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 139
+        width: 74
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35df2e6fd5840480800000000000000
+      internalID: -8933868566123391685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 140
+        width: 73
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8f2293cb7614670800000000000000
+      internalID: 8521206028071794926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 142
+        width: 74
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8a076d2fa2dfcc0800000000000000
+      internalID: -3675734498396297029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 139
+        width: 74
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa135bbb7ef064c00800000000000000
+      internalID: 884411864785957290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 11
+        width: 74
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aaf0ff9b0dc42710800000000000000
+      internalID: 1667683211845630626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 7
+        width: 72
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a077a12a7c81da0800000000000000
+      internalID: -5973805406664324575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 4
+        width: 72
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb5bef8a8de6fa90800000000000000
+      internalID: -7280370568221991999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 7
+        width: 72
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e704409f38ca2f60800000000000000
+      internalID: 8010435062560720867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soldoer_jump2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 6
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29a2de1c2fc6d830800000000000000
+      internalID: 4095688699542677807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      soldoer_jump2-removebg-preview_0: 6684267674043558392
+      soldoer_jump2-removebg-preview_1: -2970930324805645059
+      soldoer_jump2-removebg-preview_10: 1667683211845630626
+      soldoer_jump2-removebg-preview_11: -5973805406664324575
+      soldoer_jump2-removebg-preview_12: -7280370568221991999
+      soldoer_jump2-removebg-preview_13: 8010435062560720867
+      soldoer_jump2-removebg-preview_14: 4095688699542677807
+      soldoer_jump2-removebg-preview_2: 5584902862384638356
+      soldoer_jump2-removebg-preview_3: -2112553253501162786
+      soldoer_jump2-removebg-preview_4: 6711755660401704017
+      soldoer_jump2-removebg-preview_5: -9132970137488110636
+      soldoer_jump2-removebg-preview_6: -8933868566123391685
+      soldoer_jump2-removebg-preview_7: 8521206028071794926
+      soldoer_jump2-removebg-preview_8: -3675734498396297029
+      soldoer_jump2-removebg-preview_9: 884411864785957290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

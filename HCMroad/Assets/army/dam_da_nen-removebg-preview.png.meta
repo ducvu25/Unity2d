@@ -1,0 +1,886 @@
+fileFormatVersion: 2
+guid: 60934ec6d425acc4ca189b85ac6778a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1522172169730657550
+    second: dam_da_nen-removebg-preview_0
+  - first:
+      213: -5484983561406578691
+    second: dam_da_nen-removebg-preview_1
+  - first:
+      213: -1529268875780025578
+    second: dam_da_nen-removebg-preview_2
+  - first:
+      213: 4092456541451255990
+    second: dam_da_nen-removebg-preview_3
+  - first:
+      213: -1864427261056744746
+    second: dam_da_nen-removebg-preview_4
+  - first:
+      213: -9003867089812228602
+    second: dam_da_nen-removebg-preview_5
+  - first:
+      213: 8474850209986809018
+    second: dam_da_nen-removebg-preview_6
+  - first:
+      213: -9017985087098193582
+    second: dam_da_nen-removebg-preview_7
+  - first:
+      213: 3415230936198118591
+    second: dam_da_nen-removebg-preview_8
+  - first:
+      213: -1656152473316421262
+    second: dam_da_nen-removebg-preview_9
+  - first:
+      213: -1574035136088042496
+    second: dam_da_nen-removebg-preview_10
+  - first:
+      213: 3222958634852993489
+    second: dam_da_nen-removebg-preview_11
+  - first:
+      213: -8253396342684256095
+    second: dam_da_nen-removebg-preview_12
+  - first:
+      213: -2982999917285678554
+    second: dam_da_nen-removebg-preview_13
+  - first:
+      213: 8640424456490977528
+    second: dam_da_nen-removebg-preview_14
+  - first:
+      213: -850984063666960335
+    second: dam_da_nen-removebg-preview_15
+  - first:
+      213: -7082151989853790271
+    second: dam_da_nen-removebg-preview_16
+  - first:
+      213: -1340702551428941588
+    second: dam_da_nen-removebg-preview_17
+  - first:
+      213: 7787712975097140327
+    second: dam_da_nen-removebg-preview_18
+  - first:
+      213: -6368099158792045155
+    second: dam_da_nen-removebg-preview_19
+  - first:
+      213: -764287054538193808
+    second: dam_da_nen-removebg-preview_20
+  - first:
+      213: -6065276985213940766
+    second: dam_da_nen-removebg-preview_21
+  - first:
+      213: 6578421848901621295
+    second: dam_da_nen-removebg-preview_22
+  - first:
+      213: 434664704554506558
+    second: dam_da_nen-removebg-preview_23
+  - first:
+      213: 2725573876571670369
+    second: dam_da_nen-removebg-preview_24
+  - first:
+      213: 4801076038700092735
+    second: dam_da_nen-removebg-preview_25
+  - first:
+      213: -723381256936489096
+    second: dam_da_nen-removebg-preview_26
+  - first:
+      213: 2563122016717000999
+    second: dam_da_nen-removebg-preview_27
+  - first:
+      213: 3427727835379211103
+    second: dam_da_nen-removebg-preview_28
+  - first:
+      213: -1874856266619516473
+    second: dam_da_nen-removebg-preview_29
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 456
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2f738f97820eae0800000000000000
+      internalID: -1522172169730657550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 456
+        width: 55
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfff087f28c61e3b0800000000000000
+      internalID: -5484983561406578691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 455
+        width: 53
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61312155f02f6cae0800000000000000
+      internalID: -1529268875780025578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 456
+        width: 53
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b00debaa835bc830800000000000000
+      internalID: 4092456541451255990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 456
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d28823c8493026e0800000000000000
+      internalID: -1864427261056744746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 365
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60679ea1696db0380800000000000000
+      internalID: -9003867089812228602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 365
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc88e24d57bc9570800000000000000
+      internalID: 8474850209986809018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 365
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259fdb5b75ea9d280800000000000000
+      internalID: -9017985087098193582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 365
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc730a1176556f20800000000000000
+      internalID: 3415230936198118591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 365
+        width: 55
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2711716a91a2409e0800000000000000
+      internalID: -1656152473316421262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 275
+        width: 53
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0041d712267e72ae0800000000000000
+      internalID: -1574035136088042496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 275
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9c03c6dcf3abc20800000000000000
+      internalID: 3222958634852993489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 275
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8fbc331cb067d80800000000000000
+      internalID: -8253396342684256095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 275
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622ea2d31614a96d0800000000000000
+      internalID: -2982999917285678554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 274
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f80eb5a344f8e770800000000000000
+      internalID: 8640424456490977528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 189
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 138cc97b082b034f0800000000000000
+      internalID: -850984063666960335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 189
+        width: 54
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf507fb94427bd90800000000000000
+      internalID: -7082151989853790271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 184
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce83e90022ed46de0800000000000000
+      internalID: -1340702551428941588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 184
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7649d5590b3831c60800000000000000
+      internalID: 7787712975097140327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 184
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d7cb10e87ff97a0800000000000000
+      internalID: -6368099158792045155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 93
+        width: 55
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07442d729f4b465f0800000000000000
+      internalID: -764287054538193808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 94
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb88f797bec3dba0800000000000000
+      internalID: -6065276985213940766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 95
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26137e41df3b4b50800000000000000
+      internalID: 6578421848901621295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 95
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e391f5fee3d380600800000000000000
+      internalID: 434664704554506558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 94
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1678322000f23d520800000000000000
+      internalID: 2725573876571670369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2
+        width: 55
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dcb525839d0a240800000000000000
+      internalID: 4801076038700092735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 3
+        width: 54
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fff17549806f5f0800000000000000
+      internalID: -723381256936489096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 5
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721566ae4e9029320800000000000000
+      internalID: 2563122016717000999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 5
+        width: 54
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b1f7e2e4cb19f20800000000000000
+      internalID: 3427727835379211103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dam_da_nen-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 3
+        width: 53
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c98a3fa82c2bf5e0800000000000000
+      internalID: -1874856266619516473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dam_da_nen-removebg-preview_0: -1522172169730657550
+      dam_da_nen-removebg-preview_1: -5484983561406578691
+      dam_da_nen-removebg-preview_10: -1574035136088042496
+      dam_da_nen-removebg-preview_11: 3222958634852993489
+      dam_da_nen-removebg-preview_12: -8253396342684256095
+      dam_da_nen-removebg-preview_13: -2982999917285678554
+      dam_da_nen-removebg-preview_14: 8640424456490977528
+      dam_da_nen-removebg-preview_15: -850984063666960335
+      dam_da_nen-removebg-preview_16: -7082151989853790271
+      dam_da_nen-removebg-preview_17: -1340702551428941588
+      dam_da_nen-removebg-preview_18: 7787712975097140327
+      dam_da_nen-removebg-preview_19: -6368099158792045155
+      dam_da_nen-removebg-preview_2: -1529268875780025578
+      dam_da_nen-removebg-preview_20: -764287054538193808
+      dam_da_nen-removebg-preview_21: -6065276985213940766
+      dam_da_nen-removebg-preview_22: 6578421848901621295
+      dam_da_nen-removebg-preview_23: 434664704554506558
+      dam_da_nen-removebg-preview_24: 2725573876571670369
+      dam_da_nen-removebg-preview_25: 4801076038700092735
+      dam_da_nen-removebg-preview_26: -723381256936489096
+      dam_da_nen-removebg-preview_27: 2563122016717000999
+      dam_da_nen-removebg-preview_28: 3427727835379211103
+      dam_da_nen-removebg-preview_29: -1874856266619516473
+      dam_da_nen-removebg-preview_3: 4092456541451255990
+      dam_da_nen-removebg-preview_4: -1864427261056744746
+      dam_da_nen-removebg-preview_5: -9003867089812228602
+      dam_da_nen-removebg-preview_6: 8474850209986809018
+      dam_da_nen-removebg-preview_7: -9017985087098193582
+      dam_da_nen-removebg-preview_8: 3415230936198118591
+      dam_da_nen-removebg-preview_9: -1656152473316421262
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

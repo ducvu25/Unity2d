@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: 20a36ad4bce643e498a409540d9c4dbf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2780964660080956841
+    second: gums-removebg-preview_0
+  - first:
+      213: -1912966911311406815
+    second: gums-removebg-preview_1
+  - first:
+      213: -6971088879709727899
+    second: gums-removebg-preview_2
+  - first:
+      213: 8856307389623444467
+    second: gums-removebg-preview_3
+  - first:
+      213: 776091424095914496
+    second: gums-removebg-preview_4
+  - first:
+      213: -6973770816701074318
+    second: gums-removebg-preview_5
+  - first:
+      213: -7005470595884988645
+    second: gums-removebg-preview_6
+  - first:
+      213: -5814866087804826982
+    second: gums-removebg-preview_7
+  - first:
+      213: 9150220912578714092
+    second: gums-removebg-preview_8
+  - first:
+      213: -2296617973306634274
+    second: gums-removebg-preview_9
+  - first:
+      213: 7801601222203821507
+    second: gums-removebg-preview_10
+  - first:
+      213: -6601703453463632543
+    second: gums-removebg-preview_11
+  - first:
+      213: -1348345080041606121
+    second: gums-removebg-preview_12
+  - first:
+      213: -5097479869211704186
+    second: gums-removebg-preview_13
+  - first:
+      213: -3870362143034590899
+    second: gums-removebg-preview_14
+  - first:
+      213: -7947513929472510246
+    second: gums-removebg-preview_15
+  - first:
+      213: 5619056727535402679
+    second: gums-removebg-preview_16
+  - first:
+      213: -6451380407385979808
+    second: gums-removebg-preview_17
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gums-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 337
+        width: 85
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a55a09cf98f79620800000000000000
+      internalID: 2780964660080956841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 337
+        width: 86
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1291530cab6c375e0800000000000000
+      internalID: -1912966911311406815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 337
+        width: 86
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563d93b2997b14f90800000000000000
+      internalID: -6971088879709727899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 337
+        width: 86
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f32c2ce5ace7ea70800000000000000
+      internalID: 8856307389623444467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 337
+        width: 86
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ac67ec90b35ca00800000000000000
+      internalID: 776091424095914496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 225
+        width: 85
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274fb8d0460383f90800000000000000
+      internalID: -6973770816701074318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 225
+        width: 86
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17c4df0c9197ce90800000000000000
+      internalID: -7005470595884988645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 114
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a8de30a127d4fa0800000000000000
+      internalID: -5814866087804826982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 114
+        width: 102
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9da96a07d1cfe70800000000000000
+      internalID: 9150220912578714092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 225
+        width: 86
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfc74c0f16c020e0800000000000000
+      internalID: -2296617973306634274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 105
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd46b81afad44c60800000000000000
+      internalID: 7801601222203821507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 114
+        width: 103
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165a4d7bfa90264a0800000000000000
+      internalID: -6601703453463632543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 114
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71479752b47b94de0800000000000000
+      internalID: -1348345080041606121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6848ee9011d1249b0800000000000000
+      internalID: -5097479869211704186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2
+        width: 103
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49bd401326b94ac0800000000000000
+      internalID: -3870362143034590899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 2
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6725a5032c4b190800000000000000
+      internalID: -7947513929472510246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2
+        width: 103
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be34899256eafd40800000000000000
+      internalID: 5619056727535402679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gums-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2
+        width: 109
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06408da43b71876a0800000000000000
+      internalID: -6451380407385979808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      gums-removebg-preview_0: 2780964660080956841
+      gums-removebg-preview_1: -1912966911311406815
+      gums-removebg-preview_10: 7801601222203821507
+      gums-removebg-preview_11: -6601703453463632543
+      gums-removebg-preview_12: -1348345080041606121
+      gums-removebg-preview_13: -5097479869211704186
+      gums-removebg-preview_14: -3870362143034590899
+      gums-removebg-preview_15: -7947513929472510246
+      gums-removebg-preview_16: 5619056727535402679
+      gums-removebg-preview_17: -6451380407385979808
+      gums-removebg-preview_2: -6971088879709727899
+      gums-removebg-preview_3: 8856307389623444467
+      gums-removebg-preview_4: 776091424095914496
+      gums-removebg-preview_5: -6973770816701074318
+      gums-removebg-preview_6: -7005470595884988645
+      gums-removebg-preview_7: -5814866087804826982
+      gums-removebg-preview_8: 9150220912578714092
+      gums-removebg-preview_9: -2296617973306634274
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

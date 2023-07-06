@@ -1,0 +1,786 @@
+fileFormatVersion: 2
+guid: be44f7608828b884aa341fc81758f090
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8613859984944961702
+    second: nenok-removebg-preview (2)_0
+  - first:
+      213: -3564511174708964983
+    second: nenok-removebg-preview (2)_1
+  - first:
+      213: 4220583143941448360
+    second: nenok-removebg-preview (2)_2
+  - first:
+      213: -2332435233844202268
+    second: nenok-removebg-preview (2)_3
+  - first:
+      213: -7334251406794167015
+    second: nenok-removebg-preview (2)_4
+  - first:
+      213: 7574891096010859579
+    second: nenok-removebg-preview (2)_5
+  - first:
+      213: 8045359222921191841
+    second: nenok-removebg-preview (2)_6
+  - first:
+      213: -6900249492722433626
+    second: nenok-removebg-preview (2)_7
+  - first:
+      213: 166968148389227413
+    second: nenok-removebg-preview (2)_8
+  - first:
+      213: 5038791487668112890
+    second: nenok-removebg-preview (2)_9
+  - first:
+      213: -5475087391744907544
+    second: nenok-removebg-preview (2)_10
+  - first:
+      213: -8900420405936358079
+    second: nenok-removebg-preview (2)_11
+  - first:
+      213: 2739985694737073048
+    second: nenok-removebg-preview (2)_12
+  - first:
+      213: -8709817901467368885
+    second: nenok-removebg-preview (2)_13
+  - first:
+      213: 8822407153752237180
+    second: nenok-removebg-preview (2)_14
+  - first:
+      213: -2588115641586276890
+    second: nenok-removebg-preview (2)_15
+  - first:
+      213: 5273005784722458984
+    second: nenok-removebg-preview (2)_16
+  - first:
+      213: -7353335012014265213
+    second: nenok-removebg-preview (2)_17
+  - first:
+      213: 5314079072909061488
+    second: nenok-removebg-preview (2)_18
+  - first:
+      213: 278554287409238034
+    second: nenok-removebg-preview (2)_19
+  - first:
+      213: 8729642400885497499
+    second: nenok-removebg-preview (2)_20
+  - first:
+      213: -4237190692872833641
+    second: nenok-removebg-preview (2)_21
+  - first:
+      213: 983953240898103120
+    second: nenok-removebg-preview (2)_22
+  - first:
+      213: 7979614787100301420
+    second: nenok-removebg-preview (2)_23
+  - first:
+      213: 3376094980711892982
+    second: nenok-removebg-preview (2)_24
+  - first:
+      213: 7802510428272240430
+    second: nenok-removebg-preview (2)_25
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_0
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 326
+        width: 58
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a89893a4049a8770800000000000000
+      internalID: 8613859984944961702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_1
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 326
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981df81e8ff488ec0800000000000000
+      internalID: -3564511174708964983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 326
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2a1aff106829a30800000000000000
+      internalID: 4220583143941448360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_3
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 300
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e47c19338681afd0800000000000000
+      internalID: -2332435233844202268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_4
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 302
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91def9c3431873a90800000000000000
+      internalID: -7334251406794167015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 255
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b342ffd715b6f1960800000000000000
+      internalID: 7574891096010859579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_6
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 255
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a161ac469bd6af60800000000000000
+      internalID: 8045359222921191841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_7
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 255
+        width: 73
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1c5bc35a36d30a0800000000000000
+      internalID: -6900249492722433626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_8
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 230
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b6b8575a0315200800000000000000
+      internalID: 166968148389227413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 185
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd48bf49226de540800000000000000
+      internalID: 5038791487668112890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_10
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 185
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e623d486059404b0800000000000000
+      internalID: -5475087391744907544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_11
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 185
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d76881cca5b7480800000000000000
+      internalID: -8900420405936358079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_12
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 186
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8938478e872660620800000000000000
+      internalID: 2739985694737073048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_13
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 185
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4203b4e3c2802780800000000000000
+      internalID: -8709817901467368885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_14
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 151
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74644f209c7f6a70800000000000000
+      internalID: 8822407153752237180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_15
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 113
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e52e91598a251cd0800000000000000
+      internalID: -2588115641586276890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_16
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 113
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86946f8d2da7d2940800000000000000
+      internalID: 5273005784722458984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_17
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 113
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c627624c4b3f990800000000000000
+      internalID: -7353335012014265213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_18
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 113
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07de419f2c66fb940800000000000000
+      internalID: 5314079072909061488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_19
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 113
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21090b706af9dd300800000000000000
+      internalID: 278554287409238034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_20
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 41
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ed7f0138be52970800000000000000
+      internalID: 8729642400885497499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 41
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79539b1b3897235c0800000000000000
+      internalID: -4237190692872833641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_22
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 41
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05763576244b7ad00800000000000000
+      internalID: 983953240898103120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_23
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68519dfe594dbe60800000000000000
+      internalID: 7979614787100301420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_24
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 42
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7cf456f7c4ade20800000000000000
+      internalID: 3376094980711892982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nenok-removebg-preview (2)_25
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 42
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27a27125e5184c60800000000000000
+      internalID: 7802510428272240430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      nenok-removebg-preview (2)_0: 8613859984944961702
+      nenok-removebg-preview (2)_1: -3564511174708964983
+      nenok-removebg-preview (2)_10: -5475087391744907544
+      nenok-removebg-preview (2)_11: -8900420405936358079
+      nenok-removebg-preview (2)_12: 2739985694737073048
+      nenok-removebg-preview (2)_13: -8709817901467368885
+      nenok-removebg-preview (2)_14: 8822407153752237180
+      nenok-removebg-preview (2)_15: -2588115641586276890
+      nenok-removebg-preview (2)_16: 5273005784722458984
+      nenok-removebg-preview (2)_17: -7353335012014265213
+      nenok-removebg-preview (2)_18: 5314079072909061488
+      nenok-removebg-preview (2)_19: 278554287409238034
+      nenok-removebg-preview (2)_2: 4220583143941448360
+      nenok-removebg-preview (2)_20: 8729642400885497499
+      nenok-removebg-preview (2)_21: -4237190692872833641
+      nenok-removebg-preview (2)_22: 983953240898103120
+      nenok-removebg-preview (2)_23: 7979614787100301420
+      nenok-removebg-preview (2)_24: 3376094980711892982
+      nenok-removebg-preview (2)_25: 7802510428272240430
+      nenok-removebg-preview (2)_3: -2332435233844202268
+      nenok-removebg-preview (2)_4: -7334251406794167015
+      nenok-removebg-preview (2)_5: 7574891096010859579
+      nenok-removebg-preview (2)_6: 8045359222921191841
+      nenok-removebg-preview (2)_7: -6900249492722433626
+      nenok-removebg-preview (2)_8: 166968148389227413
+      nenok-removebg-preview (2)_9: 5038791487668112890
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
