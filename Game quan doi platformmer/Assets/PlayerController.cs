@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,19 +10,26 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float forceJump = 200f;
     [SerializeField] float dame = 100f;
     [SerializeField] float maxHp = 100f;
+    [SerializeField] int numberBullet = 100;
     [SerializeField] Slider sldHp;
     [SerializeField] Slider[] sldTimeSkill;
     [SerializeField] GameObject effectBlood;
+    [SerializeField] GameObject bullet;
+    [SerializeField] GameObject bulletTransform;
+    [SerializeField] TextMeshProUGUI textNumberBullet;
+    [SerializeField] TextMeshProUGUI textNumberCoin;
 
     Rigidbody2D myBody;
     Animator myAnimation;
     AnimationClip[] clips;
 
+    int numberCoin;
     float mSpeed;
     float mHp;
     bool touchTheGround = false;
     bool facingRight;
-    float[] timeSpwam = {0.5f, 0.2f};
+    bool doubleJump;
+    float[] timeSpwam = {0.5f, 0.3f};
     float[] m_timeSpwam = {0, 0};
     float delayJump = 1f;
     float m_delayJump = 0;
@@ -31,6 +39,7 @@ public class PlayerController : MonoBehaviour
         mSpeed = maxSpeed;
         mHp = maxHp;
         facingRight = true;
+        doubleJump = false;
         // sldHp.maxValue = maxHp;
         // sldHp.value = maxHp;
         // for(int i = 0; i < timeSpwam.Length; i++) {
@@ -39,6 +48,9 @@ public class PlayerController : MonoBehaviour
         // }
         myBody = GetComponent<Rigidbody2D>();
         myAnimation = GetComponent<Animator>();
+        textNumberBullet.text = numberBullet.ToString();
+        numberCoin = 0;//PlayerPrefs.GetInt("Coin");
+        textNumberBullet.text = numberBullet.ToString();
         // clips = myAnimation.runtimeAnimatorController.animationClips;
         // foreach (AnimationClip clip in clips) {
         //     if (clip.name == "PlayerJump") {
@@ -52,26 +64,33 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // for(int i = 0; i < timeSpwam.Length; i++) {
-        //     if(m_timeSpwam[i] < 0){
-        //         m_timeSpwam[i] = 0;
-        //         continue;
-        //     }
-        //     m_timeSpwam[i] -= Time.deltaTime;
-        //     sldTimeSkill[i].value = m_timeSpwam[i];  
-        // }
-        this.Jump();
+        for(int i = 0; i < timeSpwam.Length; i++) {
+            if(m_timeSpwam[i] < 0){
+                m_timeSpwam[i] = 0;
+                continue;
+            }
+            m_timeSpwam[i] -= Time.deltaTime;
+           // sldTimeSkill[i].value = m_timeSpwam[i];  
+        }
         this.Run();
         this.Attack();
+        this.Jump();
     }
     void Jump(){
         m_delayJump -= Time.deltaTime;
-        if((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)) && touchTheGround){
-            touchTheGround = false;
+        if(Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow)){
+            if(touchTheGround){
+                myBody.AddForce(new Vector2(0, forceJump));
+                doubleJump = true;
+            }else if(doubleJump){
+                doubleJump = false;
+                myBody.AddForce(new Vector2(0, forceJump*4/5));
+            }else
+                return;
             m_delayJump = delayJump;
-            myBody.AddForce(new Vector2(0, forceJump));
             myAnimation.SetBool("Jump", true);
-             Debug.Log("Jump");
+            //Debug.Log("Jump");
+            touchTheGround = false;
         }
     }
     void Run(){
@@ -93,20 +112,71 @@ public class PlayerController : MonoBehaviour
             move_x = 0;
 
         if(move_x != 0){
-            myAnimation.SetBool("Run", true);
+            if(touchTheGround)
+                myAnimation.SetBool("Run", true);
             transform.position = transform.position + new Vector3(move_x, 0, 0);
         }else
             myAnimation.SetBool("Run", false);
     }
     void Attack(){
-
+        if(Input.GetKey(KeyCode.Q) && m_timeSpwam[0] <= 0){
+            m_timeSpwam[0] = timeSpwam[0];
+            myAnimation.SetInteger("Attack", 1);
+            Debug.Log("Skill 1");
+            Invoke("DelayAttack", 0.36f);
+        }else if(Input.GetKey(KeyCode.W) && m_timeSpwam[1] <= 0 && numberBullet > 0){
+            m_timeSpwam[1] = timeSpwam[1];
+            numberBullet--;
+            textNumberBullet.text = numberBullet.ToString();
+            myAnimation.SetInteger("Attack", 2);
+            Invoke("DelayAttack", 0.2f);
+            //Debug.Log("Skill 2");
+            if(facingRight){
+                Instantiate(bullet, bulletTransform.transform.position, Quaternion.Euler(new Vector3(0, 0, 0))); // tạo viên đạn trùng với hướng hiện tại
+            }else{
+                Instantiate(bullet, bulletTransform.transform.position, Quaternion.Euler(new Vector3(0, 0, 180))); // tạo viên đạn trùng với hướng hiện tại
+            }
+        }
+        // else 
+        //     myAnimation.SetInteger("Attack", 0);
     }
     void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.gameObject.CompareTag("Ground")){// && m_delayJump <= 0){
+        if(other.gameObject.CompareTag("Ground") && m_delayJump <= 0){
             touchTheGround = true;
             myAnimation.SetBool("Jump", false);
            // Debug.Log("Ground");
+        }
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "30Bullet" && other.gameObject.activeSelf){
+            numberBullet += 30;
+            textNumberBullet.text = numberBullet.ToString();
+            other.gameObject.SetActive(false);
+            Destroy(other.gameObject);
+        }
+        if(other.tag == "Coin" && other.gameObject.activeSelf){
+            //Debug.Log(numberCoin);
+            numberCoin += (int)Random.Range(50, 100);
+            PlayerPrefs.SetInt("Coin", numberCoin);
+            textNumberCoin.text = numberCoin.ToString();
+            other.gameObject.SetActive(false);
+            Destroy(other.gameObject);
+            //Debug.Log(numberCoin);
+        }
+
+    }
+    void DelayAttack(){
+        myAnimation.SetInteger("Attack", 0);
+    }
+    public void BuyBullet(){
+        if(numberCoin >= 30){
+            numberCoin -= 30;
+             PlayerPrefs.SetInt("Coin", numberCoin);
+            textNumberCoin.text = numberCoin.ToString();
+            numberBullet += 30;
+            textNumberBullet.text = numberBullet.ToString();
         }
     }
 }

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - BulletPlayer
+  - 30Bullet
+  - Coin
   layers:
   - Default
   - TransparentFX
