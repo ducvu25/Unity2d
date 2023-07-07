@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Slider sldHp;
     [SerializeField] Slider[] sldTimeSkill;
     [SerializeField] GameObject effectBlood;
+    [SerializeField] GameObject effectBlood2;
     [SerializeField] GameObject bullet;
     [SerializeField] GameObject bulletTransform;
     [SerializeField] TextMeshProUGUI textNumberBullet;
@@ -40,8 +41,8 @@ public class PlayerController : MonoBehaviour
         mHp = maxHp;
         facingRight = true;
         doubleJump = false;
-        // sldHp.maxValue = maxHp;
-        // sldHp.value = maxHp;
+        sldHp.maxValue = maxHp;
+        sldHp.value = maxHp;
         // for(int i = 0; i < timeSpwam.Length; i++) {
         //     sldTimeSkill[i].value = m_timeSpwam[i];  
         //     sldTimeSkill[i].maxValue = timeSpwam[i]; 
@@ -51,6 +52,7 @@ public class PlayerController : MonoBehaviour
         textNumberBullet.text = numberBullet.ToString();
         numberCoin = 0;//PlayerPrefs.GetInt("Coin");
         textNumberBullet.text = numberBullet.ToString();
+        effectBlood2.SetActive(false);
         // clips = myAnimation.runtimeAnimatorController.animationClips;
         // foreach (AnimationClip clip in clips) {
         //     if (clip.name == "PlayerJump") {
@@ -167,16 +169,50 @@ public class PlayerController : MonoBehaviour
         }
 
     }
+    // public void OnAnimationEnd()
+    // {
+    //     myAnimation.SetTrigger("PlayerIdle"); // Kích hoạt trigger để chuyển đổi sang trạng thái khác
+    // }
     void DelayAttack(){
         myAnimation.SetInteger("Attack", 0);
+    }
+    void PlayIdle(){
+        if(effectBlood2.activeSelf)
+            effectBlood2.SetActive(false);
+        else
+            myAnimation.Play("PlayerIdle");
     }
     public void BuyBullet(){
         if(numberCoin >= 30){
             numberCoin -= 30;
-             PlayerPrefs.SetInt("Coin", numberCoin);
+            PlayerPrefs.SetInt("Coin", numberCoin);
             textNumberCoin.text = numberCoin.ToString();
             numberBullet += 30;
             textNumberBullet.text = numberBullet.ToString();
+        }
+    }
+    public void AddDame(float dame){
+        mHp -= dame;
+        if(mHp < 0)
+            mHp = 0;
+        else if(mHp > maxHp)
+            mHp = maxHp;
+        sldHp.value = mHp;
+        if(mHp<= 0){
+            myAnimation.SetBool("Die", true);
+        }else{
+            if(dame > 0){
+                myAnimation.Play("PlayerChamBay");
+                Invoke("PlayIdle", 0.25f);
+                if(facingRight){
+                    transform.position = transform.position - new Vector3(mSpeed*Time.deltaTime, 0, 0);
+                }else{
+                    transform.position = transform.position + new Vector3(mSpeed*Time.deltaTime, 0, 0);
+                }
+            }else if(!effectBlood2.activeSelf){
+                effectBlood2.SetActive(true);
+                Invoke("PlayIdle", 1f);
+            }
         }
     }
 }
