@@ -17,12 +17,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] GameObject effectBlood2;
     [SerializeField] GameObject bullet;
     [SerializeField] GameObject bulletTransform;
+    //[SerializeField] 
     [SerializeField] TextMeshProUGUI textNumberBullet;
     [SerializeField] TextMeshProUGUI textNumberCoin;
 
     Rigidbody2D myBody;
     Animator myAnimation;
-    //AnimationClip[] clips;
+    GameObject manager;
 
     int numberCoin;
     float mSpeed;
@@ -53,6 +54,8 @@ public class PlayerController : MonoBehaviour
         numberCoin = 0;//PlayerPrefs.GetInt("Coin");
         textNumberBullet.text = numberBullet.ToString();
         effectBlood2.SetActive(false);
+        manager = GameObject.FindWithTag("Manager");
+        //Debug.Log("oeke");
     }
 
     // Update is called once per frame
@@ -106,8 +109,12 @@ public class PlayerController : MonoBehaviour
             move_x = 0;
 
         if(move_x != 0){
-            if(touchTheGround)
+            if(touchTheGround){
                 myAnimation.SetBool("Run", true);
+                ManagerController managerController = manager.GetComponent<ManagerController>();
+                //Debug.Log("oeke");
+                managerController.PlaySound(0);
+            }
             transform.position = transform.position + new Vector3(move_x, 0, 0);
         }else
             myAnimation.SetBool("Run", false);
@@ -115,11 +122,17 @@ public class PlayerController : MonoBehaviour
     void Attack(){
         if(Input.GetKey(KeyCode.Q) && m_timeSpwam[0] <= 0){
             m_timeSpwam[0] = timeSpwam[0];
+            ManagerController managerController = manager.GetComponent<ManagerController>();
+                //Debug.Log("oeke");
+            managerController.PlaySound(1);
             myAnimation.SetInteger("Attack", 1);
             Debug.Log("Skill 1");
             Invoke("DelayAttack", 0.36f);
         }else if(Input.GetKey(KeyCode.W) && m_timeSpwam[1] <= 0 && numberBullet > 0){
             m_timeSpwam[1] = timeSpwam[1];
+            ManagerController managerController = manager.GetComponent<ManagerController>();
+                //Debug.Log("oeke");
+            managerController.PlaySound(2);
             numberBullet--;
             textNumberBullet.text = numberBullet.ToString();
             myAnimation.SetInteger("Attack", 2);
@@ -142,9 +155,12 @@ public class PlayerController : MonoBehaviour
            // Debug.Log("Ground");
         }
     }
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
         if(other.tag == "30Bullet" && other.gameObject.activeSelf){
+            ManagerController managerController = manager.GetComponent<ManagerController>();
+                //Debug.Log("oeke");
+            managerController.PlaySound(3);
             numberBullet += 30;
             textNumberBullet.text = numberBullet.ToString();
             other.gameObject.SetActive(false);
@@ -152,6 +168,9 @@ public class PlayerController : MonoBehaviour
         }
         if(other.tag == "Coin" && other.gameObject.activeSelf){
             //Debug.Log(numberCoin);
+            ManagerController managerController = manager.GetComponent<ManagerController>();
+                //Debug.Log("oeke");
+            managerController.PlaySound(3);
             numberCoin += (int)Random.Range(50, 100);
             PlayerPrefs.SetInt("Coin", numberCoin);
             textNumberCoin.text = numberCoin.ToString();
@@ -159,8 +178,26 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
             //Debug.Log(numberCoin);
         }
-        //if(other.tag == "Enemy")
-
+    
+        if(other.tag == "BulletEnemy"){
+            this.AddDame(other.GetComponent<BulletControler>().Dame());
+            other.gameObject.SetActive(false);
+            Destroy(other.gameObject);
+        }
+    }
+    /// <summary>
+    /// Sent when another object enters a trigger collider attached to this
+    /// object (2D physics only).
+    /// </summary>
+    /// <param name="other">The other Collider2D involved in this collision.</param>
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "EnemyAttack"){
+            //Debug.Log("ok");
+            this.AddDame(other.transform.parent.gameObject.GetComponent<EnemyController>().Dame());
+            //other.gameObject.SetActive(false);
+            //Destroy(other.gameObject);
+        }
     }
     // public void OnAnimationEnd()
     // {
@@ -203,6 +240,9 @@ public class PlayerController : MonoBehaviour
                     transform.position = transform.position + new Vector3(mSpeed*Time.deltaTime, 0, 0);
                 }
             }else if(!effectBlood2.activeSelf){
+                ManagerController managerController = manager.GetComponent<ManagerController>();
+                //Debug.Log("oeke");
+                managerController.PlaySound(5);
                 effectBlood2.SetActive(true);
                 Invoke("PlayIdle", 1f);
             }

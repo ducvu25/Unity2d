@@ -15,7 +15,7 @@ public class BayController : MonoBehaviour
     void OnTriggerStay2D(Collider2D other)
     {
         if(other.tag == "Player" && m_time <= 0){
-            Debug.Log("gai");
+            //Debug.Log("gai");
             m_time = time;
             PlayerController  playerController = other.GetComponent<PlayerController>();
             if(playerController != null)

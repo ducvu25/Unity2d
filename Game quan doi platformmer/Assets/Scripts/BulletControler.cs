@@ -5,6 +5,7 @@ using UnityEngine;
 public class BulletControler : MonoBehaviour
 {
     [SerializeField] float speed = 10f;
+    [SerializeField] GameObject player;
     // Start is called before the first frame update
     Rigidbody2D myBody;
     void Start()
@@ -21,5 +22,15 @@ public class BulletControler : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Ground"))
             Destroy(gameObject);
+    }
+    public float Dame(){
+        // if(type == 0){
+
+        // }
+        EnemyController enemyController = player.GetComponent<EnemyController>();
+        if(enemyController != null){
+            return enemyController.Dame();
+        }
+        return 0;
     }
 }

@@ -11,6 +11,9 @@ TagManager:
   - bay
   - Enemy
   - BulletEnemy
+  - EnemyAttack
+  - Manager
+  - PlayerAttack
   layers:
   - Default
   - TransparentFX

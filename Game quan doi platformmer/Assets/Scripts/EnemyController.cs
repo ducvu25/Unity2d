@@ -15,17 +15,19 @@ public class EnemyController : MonoBehaviour
     [SerializeField] GameObject effectBlood;
     [SerializeField] GameObject bullet;
     [SerializeField] GameObject bulletTransform;
+    [SerializeField] GameObject attackCls;
 
     Rigidbody2D myBody;
     Animator myAnimation;
     GameObject player;
+    GameObject manager;
 
     float delayRun;
     float delayIdle = 0;
     float mSpeed;
     float mHp;
     Vector3 index;
-    float[] timeSpwam = {0.5f, 0.5f};
+    float[] timeSpwam = {0.7f, 0.7f};
     float[] m_timeSpwam = {0, 0};
     bool attack = false;
     
@@ -43,6 +45,7 @@ public class EnemyController : MonoBehaviour
         myAnimation = GetComponent<Animator>();
         index = transform.position;
         player = GameObject.FindWithTag("Player");
+        manager = GameObject.FindWithTag("Manager");
     }
 
     // Update is called once per frame
@@ -114,6 +117,23 @@ public class EnemyController : MonoBehaviour
             }else{
                 canvasHp.SetActive(true);
                 sldHp.value = mHp;
+                Instantiate(effectBlood, transform.position, Quaternion.Euler(new Vector3(0, 0, 0))); // tạo viên đạn trùng với hướng hiện tại
+                Invoke("CanvasHP", 0.75f);
+            }
+        }
+    }
+     void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "PlayerAttack"){
+            PlayerController playerController = player.GetComponent<PlayerController>();
+            mHp -= playerController.Dame()*3/4;
+            if(mHp <= 0){
+                myAnimation.SetBool("Die", true);
+                Invoke("SetActive", 2f);
+            }else{
+                canvasHp.SetActive(true);
+                sldHp.value = mHp;
+                Instantiate(effectBlood, transform.position, Quaternion.Euler(new Vector3(0, 0, 0))); // tạo viên đạn trùng với hướng hiện tại
                 Invoke("CanvasHP", 0.75f);
             }
         }
@@ -122,10 +142,19 @@ public class EnemyController : MonoBehaviour
         canvasHp.SetActive(false);
     }
     void SetActive(){
-        gameObject.SetActive(!gameObject.activeSelf);
+        //gameObject.SetActive(!gameObject.activeSelf);
+        Destroy(gameObject);
+        ManagerController managerController = manager.GetComponent<ManagerController>();
+        managerController.TaoItem(new Vector3(transform.position.x, transform.position.y + 0.2f, 0));
     }
+    // void AttackCls(){
+    //     AttackCls.SetActive(true);
+    // }
     public void Attack(){
         if(m_timeSpwam[type] <= 0 && mHp > 0){
+            ManagerController managerController = manager.GetComponent<ManagerController>();
+                //Debug.Log("oeke");
+            managerController.PlaySound(type + 1);
             attack = true;
             m_timeSpwam[type] = timeSpwam[type];
             if(type == 0){
@@ -145,7 +174,13 @@ public class EnemyController : MonoBehaviour
     public int Type(){
         return type;
     }
-    // public void Dame(){
-    //     return dame;
-    // }
+    public float Dame(){
+        if(type == 0){
+            //attackCls.SetActive(false);
+            //Debug.Log("at");
+            //Invoke("AttackCls", 0.2f);
+            return dame;
+        }else
+            return dame;
+    }
 }

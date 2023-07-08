@@ -136,6 +136,101 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e64c22bb8d3f6a49ba748b31ebe2581, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1919631098673787299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5374832471847993145}
+  - component: {fileID: 8516050126327239287}
+  - component: {fileID: 4480699484824721082}
+  m_Layer: 0
+  m_Name: AttackCls
+  m_TagString: EnemyAttack
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5374832471847993145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919631098673787299}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 659661482347151915}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &8516050126327239287
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919631098673787299}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.34181497, y: 0.123518035}
+  m_Size: {x: 0.4175763, y: 0.6199448}
+  m_Direction: 0
+--- !u!50 &4480699484824721082
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919631098673787299}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 7
 --- !u!1 &2187466294639401019
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,6 +267,7 @@ Transform:
   m_Children:
   - {fileID: 5692236344660149410}
   - {fileID: 2958920225585212624}
+  - {fileID: 5374832471847993145}
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -307,8 +403,8 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
   m_Constraints: 5
 --- !u!114 &1052782786155916678
 MonoBehaviour:
@@ -323,16 +419,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 2
-  dame: 100
+  dame: 5
   maxHp: 500
   distane: 1
   facingRight: 1
-  type: 1
+  type: 0
   sldHp: {fileID: 93767737894530603}
   canvasHp: {fileID: 2933765599969304784}
-  effectBlood: {fileID: 0}
+  effectBlood: {fileID: 4838132013262771408, guid: c8615d357990f194685c42b6cab40297, type: 3}
   bullet: {fileID: 8528605750185283995, guid: 75bfccbe9304d394e807865bf9fe0d77, type: 3}
   bulletTransform: {fileID: 1787720815068211790}
+  attackCls: {fileID: 1919631098673787299}
 --- !u!70 &8417843127805425782
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
