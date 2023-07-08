@@ -9,6 +9,8 @@ TagManager:
   - 30Bullet
   - Coin
   - bay
+  - Enemy
+  - BulletEnemy
   layers:
   - Default
   - TransparentFX

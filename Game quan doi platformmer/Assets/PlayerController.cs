@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
 
     Rigidbody2D myBody;
     Animator myAnimation;
-    AnimationClip[] clips;
+    //AnimationClip[] clips;
 
     int numberCoin;
     float mSpeed;
@@ -53,14 +53,6 @@ public class PlayerController : MonoBehaviour
         numberCoin = 0;//PlayerPrefs.GetInt("Coin");
         textNumberBullet.text = numberBullet.ToString();
         effectBlood2.SetActive(false);
-        // clips = myAnimation.runtimeAnimatorController.animationClips;
-        // foreach (AnimationClip clip in clips) {
-        //     if (clip.name == "PlayerJump") {
-        //         delayJump = clip.length;
-        //         m_delayJump = 0;
-        //         break;
-        //     }
-        // }
     }
 
     // Update is called once per frame
@@ -142,7 +134,7 @@ public class PlayerController : MonoBehaviour
         // else 
         //     myAnimation.SetInteger("Attack", 0);
     }
-    void OnCollisionEnter2D(Collision2D other)
+    void OnCollisionStay2D(Collision2D other)
     {
         if(other.gameObject.CompareTag("Ground") && m_delayJump <= 0){
             touchTheGround = true;
@@ -167,6 +159,7 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
             //Debug.Log(numberCoin);
         }
+        //if(other.tag == "Enemy")
 
     }
     // public void OnAnimationEnd()
@@ -214,5 +207,8 @@ public class PlayerController : MonoBehaviour
                 Invoke("PlayIdle", 1f);
             }
         }
+    }
+    public float Dame(){
+        return dame;
     }
 }
