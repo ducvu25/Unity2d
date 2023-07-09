@@ -26,6 +26,10 @@ public class ManagerController : MonoBehaviour
     AudioSource endAS;
     [SerializeField] AudioClip eat;
     AudioSource eatAS;
+    [SerializeField] AudioClip plane;
+    AudioSource planeAS;
+    [SerializeField] AudioClip bom;
+    AudioSource bomAS;
     [SerializeField] GameObject prefab; // Add this line to declare the prefab variable
 
     private static ManagerController instance;
@@ -59,12 +63,18 @@ public class ManagerController : MonoBehaviour
             case 5:
                 Play(eat, ref eatAS, volume, isLoopback);
                 break;
+            case 6:
+                Play(plane, ref planeAS, volume, isLoopback);
+                break;
+            case 7:
+                Play(bom, ref bomAS, volume, isLoopback, true);
+                break;
         }
     }
 
-    void Play(AudioClip clip, ref AudioSource audioSource, float volume = 1f, bool isLoopback = false)
+    void Play(AudioClip clip, ref AudioSource audioSource, float volume = 1f, bool isLoopback = false, bool repeat = false)
     {
-        if (audioSource != null && audioSource.isPlaying)
+        if (audioSource != null && audioSource.isPlaying && !repeat)
             return;
         audioSource = Instantiate(instance.prefab).GetComponent<AudioSource>();
         audioSource.volume = volume;

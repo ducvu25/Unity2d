@@ -206,6 +206,14 @@ public class PlayerController : MonoBehaviour
             //other.gameObject.SetActive(false);
             //Destroy(other.gameObject);
         }
+        if(other.tag == "Bum"){
+            GameObject plane = GameObject.FindWithTag("Plane");
+            PlaneController planeController = plane.GetComponent<PlaneController>();
+            //Debug.Log("ok");
+            this.AddDame(planeController.Dame());
+            //other.gameObject.SetActive(false);
+            //Destroy(other.gameObject);
+        }
     }
     // public void OnAnimationEnd()
     // {
