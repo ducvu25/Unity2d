@@ -8,6 +8,7 @@ public class BulletControler : MonoBehaviour
     [SerializeField] GameObject player;
     // Start is called before the first frame update
     Rigidbody2D myBody;
+    
     void Start()
     {
         myBody = GetComponent<Rigidbody2D>();

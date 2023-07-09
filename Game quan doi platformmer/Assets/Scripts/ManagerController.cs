@@ -1,11 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//using UnityEngine.SceneManagent;
+using UnityEngine.UI;
+using TMPro;
 
 public class ManagerController : MonoBehaviour
 {
     [SerializeField] GameObject coin;
     [SerializeField] GameObject bullet30;
+    [SerializeField] GameObject menuPause;
+    [SerializeField] GameObject menuEnd;
+    [SerializeField] TextMeshProUGUI textNumberCoin;
     //[SerializeField] GameObject prefab;
     [SerializeField] AudioSource BG;
     [SerializeField] AudioClip run;
@@ -24,6 +30,8 @@ public class ManagerController : MonoBehaviour
 
     private static ManagerController instance;
 
+    bool pause;
+    
     void Awake()
     {
         instance = this;
@@ -73,11 +81,26 @@ public class ManagerController : MonoBehaviour
 //             }
 //         }
 //     }
-    // void Start()
-    // {
-
+    void Start()
+    {
+        pause = false;
+        menuPause.SetActive(false);
+        menuEnd.SetActive(false);
+    }
+    public void Pause(bool value){
+        pause = value;
+        if(!pause){
+            menuPause.SetActive(false);
+        }else{
+            menuPause.SetActive(true);
+        }
+    }
+    public bool Pause(){
+        return pause;
+    }
+    // public void Restart(){
+    //     //SceneManagent.LoadScene()
     // }
-
     // void Update()
     // {
 
@@ -94,5 +117,10 @@ public class ManagerController : MonoBehaviour
         {
             Instantiate(bullet30, position, Quaternion.Euler(new Vector3(0, 0, 0)));
         }
+    }
+    public void EndGame(int coin){
+        pause = true;
+        menuEnd.SetActive(true);
+        textNumberCoin.text = coin.ToString();
     }
 }

@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D myBody;
     Animator myAnimation;
     GameObject manager;
+    ManagerController managerController;
 
     int numberCoin;
     float mSpeed;
@@ -52,15 +53,18 @@ public class PlayerController : MonoBehaviour
         myAnimation = GetComponent<Animator>();
         textNumberBullet.text = numberBullet.ToString();
         numberCoin = 0;//PlayerPrefs.GetInt("Coin");
-        textNumberBullet.text = numberBullet.ToString();
+        textNumberCoin.text = numberCoin.ToString();
         effectBlood2.SetActive(false);
         manager = GameObject.FindWithTag("Manager");
+        managerController = manager.GetComponent<ManagerController>();
         //Debug.Log("oeke");
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(managerController.Pause())
+            return;
         for(int i = 0; i < timeSpwam.Length; i++) {
             if(m_timeSpwam[i] < 0){
                 m_timeSpwam[i] = 0;
@@ -154,6 +158,10 @@ public class PlayerController : MonoBehaviour
             myAnimation.SetBool("Jump", false);
            // Debug.Log("Ground");
         }
+        if(other.gameObject.CompareTag("LineMap")){
+            myAnimation.SetBool("Die", true);
+            Invoke("EndGame", 1f);
+        }
     }
     void OnTriggerStay2D(Collider2D other)
     {
@@ -209,8 +217,9 @@ public class PlayerController : MonoBehaviour
     void PlayIdle(){
         if(effectBlood2.activeSelf)
             effectBlood2.SetActive(false);
-        else
+        else{
             myAnimation.Play("PlayerIdle");
+        }
     }
     public void BuyBullet(){
         if(numberCoin >= 30){
@@ -230,6 +239,7 @@ public class PlayerController : MonoBehaviour
         sldHp.value = mHp;
         if(mHp<= 0){
             myAnimation.SetBool("Die", true);
+            Invoke("EndGame", 1f);
         }else{
             if(dame > 0){
                 myAnimation.Play("PlayerChamBay");
@@ -250,5 +260,8 @@ public class PlayerController : MonoBehaviour
     }
     public float Dame(){
         return dame;
+    }
+    void EndGame(){
+        managerController.EndGame(numberCoin);
     }
 }

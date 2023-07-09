@@ -21,7 +21,7 @@ public class EnemyController : MonoBehaviour
     Animator myAnimation;
     GameObject player;
     GameObject manager;
-
+    ManagerController managerController;
     float delayRun;
     float delayIdle = 0;
     float mSpeed;
@@ -46,11 +46,14 @@ public class EnemyController : MonoBehaviour
         index = transform.position;
         player = GameObject.FindWithTag("Player");
         manager = GameObject.FindWithTag("Manager");
+        managerController = manager.GetComponent<ManagerController>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(managerController.Pause())
+            return;
         if(mHp <= 0)
             return;
         for(int i = 0; i < timeSpwam.Length; i++) {
@@ -144,7 +147,7 @@ public class EnemyController : MonoBehaviour
     void SetActive(){
         //gameObject.SetActive(!gameObject.activeSelf);
         Destroy(gameObject);
-        ManagerController managerController = manager.GetComponent<ManagerController>();
+       
         managerController.TaoItem(new Vector3(transform.position.x, transform.position.y + 0.2f, 0));
     }
     // void AttackCls(){
@@ -152,7 +155,7 @@ public class EnemyController : MonoBehaviour
     // }
     public void Attack(){
         if(m_timeSpwam[type] <= 0 && mHp > 0){
-            ManagerController managerController = manager.GetComponent<ManagerController>();
+            // ManagerController managerController = manager.GetComponent<ManagerController>();
                 //Debug.Log("oeke");
             managerController.PlaySound(type + 1);
             attack = true;
