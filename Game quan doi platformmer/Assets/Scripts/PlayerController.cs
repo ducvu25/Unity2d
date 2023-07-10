@@ -214,6 +214,8 @@ public class PlayerController : MonoBehaviour
             //other.gameObject.SetActive(false);
             //Destroy(other.gameObject);
         }
+        if(other.tag == "Finish")
+            Invoke("EndGame", 1f);
     }
     // public void OnAnimationEnd()
     // {

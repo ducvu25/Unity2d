@@ -27,8 +27,8 @@ public class EnemyController : MonoBehaviour
     float mSpeed;
     float mHp;
     Vector3 index;
-    float[] timeSpwam = {0.7f, 0.7f};
-    float[] m_timeSpwam = {0, 0};
+    float[] timeSpwam = {0.7f, 0.7f, 0.65f};
+    float[] m_timeSpwam = {0, 0, 0};
     bool attack = false;
     
     // Start is called before the first frame update
@@ -80,7 +80,8 @@ public class EnemyController : MonoBehaviour
         //this.Attack();
     }
     void Idle(){
-        myAnimation.SetBool("Run", false);
+        if(type != 2)
+            myAnimation.SetBool("Run", false);
         myAnimation.SetInteger("Attack", 0);
         attack = false;
     }
@@ -98,7 +99,8 @@ public class EnemyController : MonoBehaviour
         }else{
              move_x *= -mSpeed;
         }
-        myAnimation.SetBool("Run", true);
+        if(type != 2)
+            myAnimation.SetBool("Run", true);
         transform.position = transform.position + new Vector3(move_x, 0, 0);
     }
 
@@ -160,7 +162,7 @@ public class EnemyController : MonoBehaviour
             managerController.PlaySound(type + 1);
             attack = true;
             m_timeSpwam[type] = timeSpwam[type];
-            if(type == 0){
+            if(type == 0 || type == 2){
                 myAnimation.SetInteger("Attack", 1);
                 Invoke("Idle", 0.36f);
             }else{
@@ -185,5 +187,10 @@ public class EnemyController : MonoBehaviour
             return dame;
         }else
             return dame;
+    }
+    public void SetFace(){
+        //facingRight = value;
+        delayRun = Random.Range(0.2f, 1f);
+        delayIdle = Random.Range(0.2f, 1f);
     }
 }
