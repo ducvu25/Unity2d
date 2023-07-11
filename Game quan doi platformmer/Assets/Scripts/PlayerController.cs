@@ -6,36 +6,36 @@ using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float maxSpeed = 2f;
-    [SerializeField] float forceJump = 200f;
-    [SerializeField] float dame = 100f;
-    [SerializeField] float maxHp = 100f;
-    [SerializeField] int numberBullet = 100;
-    [SerializeField] Slider sldHp;
-    [SerializeField] Slider[] sldTimeSkill;
-    [SerializeField] GameObject effectBlood;
-    [SerializeField] GameObject effectBlood2;
-    [SerializeField] GameObject bullet;
-    [SerializeField] GameObject bulletTransform;
+    [SerializeField] float maxSpeed = 2f; // tốc độ tối đa
+    [SerializeField] float forceJump = 200f; // lực nhảy tối đa
+    [SerializeField] float dame = 100f; // sát thương
+    [SerializeField] float maxHp = 100f; // hp tối đa
+    [SerializeField] int numberBullet = 100; // số lượng đạn ban đầu
+    [SerializeField] Slider sldHp; // thanh máu
+    [SerializeField] Slider[] sldTimeSkill; // thanh thời gian hiển thị kĩ năng
+    [SerializeField] GameObject effectBlood; // hiệu ứng mất máu
+    [SerializeField] GameObject effectBlood2; // hiệu ứng hồi máu
+    [SerializeField] GameObject bullet; // đạn
+    [SerializeField] GameObject bulletTransform; // vị trí đạn
     //[SerializeField] 
-    [SerializeField] TextMeshProUGUI textNumberBullet;
-    [SerializeField] TextMeshProUGUI textNumberCoin;
+    [SerializeField] TextMeshProUGUI textNumberBullet; // hiển thị số lượng đạn
+    [SerializeField] TextMeshProUGUI textNumberCoin; // hiển thị số lượng vàng hiện có
 
-    Rigidbody2D myBody;
-    Animator myAnimation;
-    GameObject manager;
-    ManagerController managerController;
+    Rigidbody2D myBody; // tác động vật lý
+    Animator myAnimation; // hiệu ứng chuyển động nhân vật
+    GameObject manager; // quản lý màn chơi
+    ManagerController managerController; // code tương tác
 
-    int numberCoin;
-    float mSpeed;
-    float mHp;
-    bool touchTheGround = false;
-    bool facingRight;
-    bool doubleJump;
-    float[] timeSpwam = {0.5f, 0.3f};
-    float[] m_timeSpwam = {0, 0};
-    float delayJump = 1f;
-    float m_delayJump = 0;
+    int numberCoin; // số lượng vàng hiện có
+    float mSpeed; // tốc độ hiện tại
+    float mHp; // lượng máu hiện tại
+    bool touchTheGround = false; // chạm đất
+    bool facingRight; // nhân vật quay mặt về bên phải
+    bool doubleJump; // nhảy 2 lần
+    float[] timeSpwam = {0.5f, 0.3f}; // thời gian hồi chiêu
+    float[] m_timeSpwam = {0, 0}; // thời gian đếm ngược 
+    float delayJump = 1f; // khonagr thời gian tối thiểu giữa 2 lần nhảy
+    float m_delayJump = 0; // thời gian thực
     // Start is called before the first frame update
     void Start()
     {
@@ -124,25 +124,25 @@ public class PlayerController : MonoBehaviour
             myAnimation.SetBool("Run", false);
     }
     void Attack(){
-        if(Input.GetKey(KeyCode.Q) && m_timeSpwam[0] <= 0){
-            m_timeSpwam[0] = timeSpwam[0];
+        if(Input.GetKey(KeyCode.Q) && m_timeSpwam[0] <= 0){ // người dùng bấm phím Q và chiêu đã hồi xong
+            m_timeSpwam[0] = timeSpwam[0]; // làm mới thời gian hồi
             ManagerController managerController = manager.GetComponent<ManagerController>();
                 //Debug.Log("oeke");
-            managerController.PlaySound(1);
-            myAnimation.SetInteger("Attack", 1);
-            Debug.Log("Skill 1");
-            Invoke("DelayAttack", 0.36f);
-        }else if(Input.GetKey(KeyCode.W) && m_timeSpwam[1] <= 0 && numberBullet > 0){
-            m_timeSpwam[1] = timeSpwam[1];
+            managerController.PlaySound(1); // phát âm thanh
+            myAnimation.SetInteger("Attack", 1);// cài đặt hiệu ứng tấn công
+            Debug.Log("Skill 1"); // thông báo dùng chiêu 1
+            Invoke("DelayAttack", 0.36f); // gọi hàm DelayAttack sau 0.36s
+        }else if(Input.GetKey(KeyCode.W) && m_timeSpwam[1] <= 0 && numberBullet > 0){ // người dùng bấm phím W và hồi chiêu xong
+            m_timeSpwam[1] = timeSpwam[1]; // // làm mới thời gian hồi
             ManagerController managerController = manager.GetComponent<ManagerController>();
                 //Debug.Log("oeke");
-            managerController.PlaySound(2);
-            numberBullet--;
-            textNumberBullet.text = numberBullet.ToString();
-            myAnimation.SetInteger("Attack", 2);
-            Invoke("DelayAttack", 0.2f);
+            managerController.PlaySound(2);// phát âm thanh
+            numberBullet--;// giảm số lượng đạn
+            textNumberBullet.text = numberBullet.ToString(); // cập nhật lên phần hiển thị
+            myAnimation.SetInteger("Attack", 2);// cài đặt hiệu ứng tấn công
+            Invoke("DelayAttack", 0.2f);// gọi hàm DelayAttack sau 0.2s
             //Debug.Log("Skill 2");
-            if(facingRight){
+            if(facingRight){// nếu nhân vật đang quay sang phải:
                 Instantiate(bullet, bulletTransform.transform.position, Quaternion.Euler(new Vector3(0, 0, 0))); // tạo viên đạn trùng với hướng hiện tại
             }else{
                 Instantiate(bullet, bulletTransform.transform.position, Quaternion.Euler(new Vector3(0, 0, 180))); // tạo viên đạn trùng với hướng hiện tại
@@ -153,44 +153,44 @@ public class PlayerController : MonoBehaviour
     }
     void OnCollisionStay2D(Collision2D other)
     {
-        if(other.gameObject.CompareTag("Ground") && m_delayJump <= 0){
-            touchTheGround = true;
-            myAnimation.SetBool("Jump", false);
+        if(other.gameObject.CompareTag("Ground") && m_delayJump <= 0){ // nếu nhân vật chạm đất và độ trễ giữa 2 lần nhỏ hơn 0
+            touchTheGround = true; // nhân vật chạm đất
+            myAnimation.SetBool("Jump", false); // tắt hiệu ứng nhảy
            // Debug.Log("Ground");
         }
-        if(other.gameObject.CompareTag("LineMap")){
-            myAnimation.SetBool("Die", true);
-            Invoke("EndGame", 1f);
+        if(other.gameObject.CompareTag("LineMap")){ // nhân vật chạm giới hạn bản đồ
+            myAnimation.SetBool("Die", true); // đặt hiệu ứng chết
+            Invoke("EndGame", 1f); // gọi hàm end game sau 1s
         }
     }
     void OnTriggerStay2D(Collider2D other)
     {
-        if(other.tag == "30Bullet" && other.gameObject.activeSelf){
+        if(other.tag == "30Bullet" && other.gameObject.activeSelf){ // nếu chạm với hộp đạn
             ManagerController managerController = manager.GetComponent<ManagerController>();
                 //Debug.Log("oeke");
-            managerController.PlaySound(3);
-            numberBullet += 30;
-            textNumberBullet.text = numberBullet.ToString();
-            other.gameObject.SetActive(false);
-            Destroy(other.gameObject);
+            managerController.PlaySound(3); // phát âm thanh
+            numberBullet += 30; // tăng số lượng đạn
+            textNumberBullet.text = numberBullet.ToString(); // hiển thị lên màn hình
+            other.gameObject.SetActive(false); // tắt trạng thái hoạt động của hộp đạn
+            Destroy(other.gameObject); // hủy đối tượng hộp đạn
         }
-        if(other.tag == "Coin" && other.gameObject.activeSelf){
+        if(other.tag == "Coin" && other.gameObject.activeSelf){// nếu chạm với đồng vàng
             //Debug.Log(numberCoin);
             ManagerController managerController = manager.GetComponent<ManagerController>();
                 //Debug.Log("oeke");
-            managerController.PlaySound(3);
-            numberCoin += (int)Random.Range(50, 100);
+            managerController.PlaySound(3);// phát âm thanh
+            numberCoin += (int)Random.Range(50, 100);// tạo số lượng vàng từ 50-> 100
             PlayerPrefs.SetInt("Coin", numberCoin);
-            textNumberCoin.text = numberCoin.ToString();
-            other.gameObject.SetActive(false);
-            Destroy(other.gameObject);
+            textNumberCoin.text = numberCoin.ToString();// hiển thị lên màn hình
+            other.gameObject.SetActive(false);// tắt trạng thái hoạt động
+            Destroy(other.gameObject); // hủy đối tượng
             //Debug.Log(numberCoin);
         }
     
         if(other.tag == "BulletEnemy"){
-            this.AddDame(other.GetComponent<BulletControler>().Dame());
-            other.gameObject.SetActive(false);
-            Destroy(other.gameObject);
+            this.AddDame(other.GetComponent<BulletControler>().Dame()); // gọi hàm nhận sát thương
+            other.gameObject.SetActive(false); // // tắt trạng thái hoạt động
+            Destroy(other.gameObject);// hủy đối tượng
         }
     }
     /// <summary>
@@ -200,38 +200,41 @@ public class PlayerController : MonoBehaviour
     /// <param name="other">The other Collider2D involved in this collision.</param>
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "EnemyAttack"){
+        if(other.tag == "EnemyAttack"){ // va chạm với vùng sát thương của quái
             //Debug.Log("ok");
-            this.AddDame(other.transform.parent.gameObject.GetComponent<EnemyController>().Dame());
+            this.AddDame(other.transform.parent.gameObject.GetComponent<EnemyController>().Dame()); // gọi hàm nhận sát thương
             //other.gameObject.SetActive(false);
             //Destroy(other.gameObject);
         }
-        if(other.tag == "Bum"){
+        if(other.tag == "Bum"){// va chạm với bom
             GameObject plane = GameObject.FindWithTag("Plane");
             PlaneController planeController = plane.GetComponent<PlaneController>();
             //Debug.Log("ok");
-            this.AddDame(planeController.Dame());
+            this.AddDame(planeController.Dame());// gọi hàm nhận sát thương
             //other.gameObject.SetActive(false);
             //Destroy(other.gameObject);
         }
-        if(other.tag == "Finish")
-            Invoke("EndGame", 1f);
+        if(other.tag == "Finish") // đến đích
+            Invoke("EndGame", 1f); // kết thúc game sau 1s
     }
     // public void OnAnimationEnd()
     // {
     //     myAnimation.SetTrigger("PlayerIdle"); // Kích hoạt trigger để chuyển đổi sang trạng thái khác
     // }
-    void DelayAttack(){
+    void DelayAttack(){ // tắt trạng thái tấn công
         myAnimation.SetInteger("Attack", 0);
     }
-    void PlayIdle(){
-        if(effectBlood2.activeSelf)
-            effectBlood2.SetActive(false);
+    void PlayIdle(){ // chuyển về trạng thái nghỉ
+        if(effectBlood2.activeSelf) // nếu hồi phục đang bật
+            effectBlood2.SetActive(false); // tắt trạng thái
         else{
-            myAnimation.Play("PlayerIdle");
+            myAnimation.Play("PlayerIdle"); // chuyển sang trạng thái đứng
         }
     }
-    public void BuyBullet(){
+     void EndGame(){
+        managerController.EndGame(numberCoin);
+    }
+    public void BuyBullet(){ // mua đạn - chuyển đổi 30 vàng - 30 viên đạn
         if(numberCoin >= 30){
             numberCoin -= 30;
             PlayerPrefs.SetInt("Coin", numberCoin);
@@ -240,38 +243,37 @@ public class PlayerController : MonoBehaviour
             textNumberBullet.text = numberBullet.ToString();
         }
     }
-    public void AddDame(float dame){
-        mHp -= dame;
-        if(mHp < 0)
+    public void AddDame(float dame){ // nhận sát thương
+        mHp -= dame; // cập nhật lượng máu
+        if(mHp < 0) // kiểm tra giới hạn
             mHp = 0;
         else if(mHp > maxHp)
             mHp = maxHp;
         sldHp.value = mHp;
-        if(mHp<= 0){
-            myAnimation.SetBool("Die", true);
-            Invoke("EndGame", 1f);
+
+        if(mHp<= 0){ // nếu nhân vật hết máu
+            myAnimation.SetBool("Die", true); // chuyển trạng thái
+            Invoke("EndGame", 1f); // kết thúc game sau 1s
         }else{
-            if(dame > 0){
-                myAnimation.Play("PlayerChamBay");
-                Invoke("PlayIdle", 0.25f);
+            if(dame > 0){ // nhận sát thương
+                myAnimation.Play("PlayerChamBay"); // hiển thị  trạng thái nhận sát thương
+                Invoke("PlayIdle", 0.25f); // chuyển về trạng thái đứng sau 0.25s
+                // đẩy lùi nhân vật ra sau
                 if(facingRight){
-                    transform.position = transform.position - new Vector3(mSpeed*Time.deltaTime, 0, 0);
+                    transform.position = transform.position - new Vector3(mSpeed*Time.deltaTime, 0, 0); 
                 }else{
-                    transform.position = transform.position + new Vector3(mSpeed*Time.deltaTime, 0, 0);
+                    transform.position = transform.position + new Vector3(mSpeed*Time.deltaTime, 0, 0); // đẩy nhân vật tiến lên
                 }
-            }else if(!effectBlood2.activeSelf){
+            }else if(!effectBlood2.activeSelf){ // nếu hiệu ứng hồi phục không hoạt động
                 ManagerController managerController = manager.GetComponent<ManagerController>();
                 //Debug.Log("oeke");
-                managerController.PlaySound(5);
-                effectBlood2.SetActive(true);
-                Invoke("PlayIdle", 1f);
+                managerController.PlaySound(5); // phát âm thanh hồi phục
+                effectBlood2.SetActive(true); // bật hiệu ứng hồi phục
+                Invoke("PlayIdle", 0.75f);// chuyeenr trạng thái đứng sau 0.75s
             }
         }
     }
-    public float Dame(){
+    public float Dame(){ // trả về sát thương nhân vật
         return dame;
-    }
-    void EndGame(){
-        managerController.EndGame(numberCoin);
     }
 }
