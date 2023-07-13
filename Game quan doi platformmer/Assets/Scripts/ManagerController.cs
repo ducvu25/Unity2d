@@ -46,7 +46,7 @@ public class ManagerController : MonoBehaviour
         switch (i)
         {
             case 0:
-                Play(run, ref runAS, volume, isLoopback);
+                //Play(run, ref runAS, volume, isLoopback);
                 break;
             case 1:
                 Play(hit, ref hitAS, volume, isLoopback);
@@ -55,13 +55,13 @@ public class ManagerController : MonoBehaviour
                 Play(bullet, ref bulletAS, volume, isLoopback);
                 break;
             case 3:
-                Play(item, ref itemAS, volume, isLoopback);
+                Play(item, ref itemAS, volume/2, isLoopback);
                 break;
             case 4:
                 Play(end, ref endAS, volume, isLoopback);
                 break;
             case 5:
-                Play(eat, ref eatAS, volume, isLoopback);
+                Play(eat, ref eatAS, volume/2, isLoopback);
                 break;
             case 6:
                 Play(plane, ref planeAS, volume, isLoopback);
